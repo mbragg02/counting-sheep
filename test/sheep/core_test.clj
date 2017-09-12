@@ -2,6 +2,6 @@
   (:require [clojure.test :refer :all]
             [sheep.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest sleep-test
+  (testing "Simple inputs"
+    (is (= 5076 (sleep 1692)))))

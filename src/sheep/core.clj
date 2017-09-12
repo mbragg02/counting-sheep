@@ -20,3 +20,5 @@
      (let [combined-results (union results (set (str (* itr n))))]
        (println (str itr "#") (* itr n) combined-results)
        (recur combined-results (+ 1 itr))))))))
+
+(sleep 1692) ;;5076
